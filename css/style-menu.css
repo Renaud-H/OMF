@@ -42,21 +42,103 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+/* HEADER */
+.header__div {
+    width: 100%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.back__to__main {
+    width: 15%;
+    padding-bottom: 3px;
+}
+.fa-arrow-left {
+    font-size: 15px;
+    font-size: 12px;
+    color: black;
+}
+.header__div-img {
+    width: 60%;
+}
+.header__img {
+    height: 16px;
 
-
+}
+/* BODY */
 body {
-    max-width: 400px;
-    display: flex ;
-    flex-direction: column;
+    max-width: 1400px;
+    margin-left: 25%;
+    margin-right: 25%;
     justify-content: center;
     font-family: "Roboto", "sans-serif";
+
+}
+.div__nom_menu {
+    display: flex;
+    justify-content: space-around;
+}
+h4 {
+    font-family: "Shrikhand", "sans-serif";
 }
 
 
-.img-cards__restaurants {
-    width: 20%;
+
+.div__menu-background-img {
+    width: 100%;
+}
+.menu__img-background {
+    width: 100%;
+}
+.div__menu {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
+#entrées {
+    margin-left: 10px;
+}
+h5 {
+    font-weight: 300;
+    font-size: 10px;
+}
+#plats {
+    margin-left: 10px;
+}
+#desserts {
+    margin-left: 10px;
+}
+.cards__menu {
+    width: 95%;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px lightgray;
+    border-radius: 5px;
+    padding: 7px 7px 7px 5px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.menu__nom {
+    font-weight: 700;
+    font-size: 12px;
+    padding-bottom: 4px;
+}
+.menu__details {
+    display: flex;
+    justify-content: space-between;
+}
+.menu__sous-nom {
+    font-weight: 300;
+    font-size: 10px;
+}
+.menu__tarif {
+    font-size: 10px;
+    font-weight: 700;
+
+}
 /* FOOTER */
 footer {
     width: 100%;
@@ -91,9 +173,3 @@ footer {
     margin-bottom: 5px;
     margin-left: 15px;
   }
-
-
-
-/* BOUTTON
-background: rgb(255,121,218);
-background: linear-gradient(165deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 78%);  */
