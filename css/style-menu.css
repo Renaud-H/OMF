@@ -43,7 +43,7 @@ table {
     border-spacing: 0;
 }
 /* HEADER */
-.header__div {
+.header__div_menu {
     width: 100%;
     height: 32px;
     display: flex;
@@ -64,6 +64,7 @@ table {
 }
 .header__img {
     height: 16px;
+    margin-left: 20px;
 
 }
 /* BODY */
@@ -82,9 +83,6 @@ body {
 h4 {
     font-family: "Shrikhand", "sans-serif";
 }
-
-
-
 .div__menu-background-img {
     width: 100%;
 }
@@ -95,28 +93,32 @@ h4 {
     background-color: white;
     display: flex;
     flex-direction: column;
+    border-radius: 25px 25px 0px 0px;
 }
 
 #entrées {
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 h5 {
     font-weight: 300;
     font-size: 10px;
 }
 #plats {
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 #desserts {
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .cards__menu {
-    width: 95%;
+    width: 97%;
     height: 25px;
     display: flex;
     flex-direction: column;
     box-shadow: 1px 1px 10px lightgray;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 7px 7px 7px 5px;
     margin-top: 7px;
     margin-bottom: 7px;
@@ -139,37 +141,3 @@ h5 {
     font-weight: 700;
 
 }
-/* FOOTER */
-footer {
-    width: 100%;
-    height: 130px;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(54, 54, 54);
-    color: white;
-    font-size: 12px;
-  }
-  footer img {
-    height: 12px;
-    margin-top: 20px;
-    margin-bottom: 7px;
-    align-self: flex-start;
-    -o-object-fit: scale-down;
-       object-fit: scale-down;
-  }
-  footer i {
-    width: 12px;
-    height: 12px;
-    font-size: 8px;
-    align-items: center;
-    margin-bottom: 2px;
-  }
-  footer a {
-    width: -moz-fit-content;
-    width: fit-content;
-    cursor: pointer;
-    text-decoration: none;
-    color: white;
-    margin-bottom: 5px;
-    margin-left: 15px;
-  }
