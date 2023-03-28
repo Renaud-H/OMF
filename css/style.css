@@ -145,6 +145,7 @@ h2 {
     box-shadow: 1px 3px 6px rgb(182, 182, 182);
     margin-bottom: 15px;
     color: black;
+    font-size: 14px;
     font-weight: 600;
     cursor: pointer;
 }
@@ -152,18 +153,53 @@ h2 {
     background-color: #9256dc2f;
 }
 .btn-fonction:hover .fa-mobile-screen-button  {
-    color: blueviolet ;
+    color: blueviolet;
 }
 .btn-fonction:hover .fa-list {
-    color: blueviolet ;
+    color: blueviolet;
 }
 .btn-fonction:hover .fa-store {
-    color: blueviolet ;
+    color: blueviolet;
+}
+.div__btn-btn {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    right: 85px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 100px;
+    background-color: blueviolet;
+    font-size: 12px;
+    font-weight: 200;
+    color: white;
 }
 .fa-mobile-screen-button, .fa-list, .fa-store {
+    width: 16px;
     position: relative;
-    right: 20%;
+    font-size: 16px;
+    right: 13%;
     color: rgb(148, 148, 148);
+}
+.fa-list {
+    margin-right: 17px;
+}
+.fa-store {
+    margin-right: 9px;
+}
+.span__fct1 {
+    position: relative;
+    left: 10px;
+}
+.span__fct2 {
+    position: relative;
+    right: 7px;
+}
+.span__fct3 {
+    position: relative;
+    left: 2px;
 }
 #restaurants {
     background-color: rgb(243, 243, 243);
@@ -240,13 +276,6 @@ h3 {
 }
 
 
-
-
-
-
-
-
-
 /* PAGE MENUS */
 .header__div_menu {
     width: 100%;
@@ -306,7 +335,6 @@ h4 {
     display: flex;
     flex-direction: column;
 }
-
 #entrées {
     display: flex;
     flex-direction: column;
@@ -379,7 +407,7 @@ footer {
     width: 12px;
     height: 12px;
     font-size: 8px;
-    align-items: center;
+    align-items: top;
     margin-bottom: 2px;
   }
   footer a {
@@ -389,6 +417,9 @@ footer {
     text-decoration: none;
     color: white;
     margin-bottom: 5px;
-    margin-left: 15px;
+    margin-left: 19px;
+  }
+  .footer__a {
+    height: 15px;
   }
 
