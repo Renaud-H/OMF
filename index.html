@@ -17,13 +17,13 @@
     <!-- HEADER -->
         <header>
             <div class="header__div">
-                <img class="header__img" src="images/ohmyfood.png" alt="Logo OhMyFood" title="OhMyFood"> 
+                <img class="header__img-main" src="images/ohmyfood.png" alt="Logo OhMyFood" title="OhMyFood"> 
             </div>
         </header>
 
         <main>
     <!-- ACCUEIL -->
-            <div class="div__locate"><i class="fa-solid fa-location-dot dot"> </i> Paris, Belleville </div>
+            <div class="div__locate"> <p class="p__locate"> <i class="fa-solid fa-location-dot dot"> </i> Paris, Belleville </p> </div>
             <section id="accueil">
                 <h1> Réservez le menu qui <br>vous convient </h1>
                 <p class="p__accueil"> Découvrez des restaurants d'exception,<br> sélectionnés par nos soins. </p>
@@ -36,24 +36,29 @@
     <!-- FONCTIONNEMENT -->
             <section id="fonctionnement">
                 <h2> Fonctionnement </h2>
-                <div>
-                    <i class="fa-sharp fa-solid fa-mobile-screen-button"></i>
-                    Choisissez un restaurant
+                <div class="fonctionnement">
+                    <div class="div__fonctionnement">
+                        <button class="btn-fonction">
+                            <p><i class="fa-sharp fa-solid fa-mobile-screen-button"></i>Choisissez un restaurant</p>
+                        </button>
+                        <button class="btn-fonction">
+                            <p><i class="fa-solid fa-list"></i> Composez votre menu </p>
+                        </button>
+                        <button class="btn-fonction">
+                            <p></p><i class="fa-sharp fa-solid fa-store"></i>Dégustez au restaurant </p>
+                        </button>
+                    </div>
                 </div>
-                <div>
-                    <i class="fa-solid fa-list"></i>
-                    Composez votre menu
-                </div>
-                <div>
-                    <i class="fa-sharp fa-solid fa-store"></i>
-                    Dégustez au restaurant
-                </div>
+
             </section>
     <!-- RESTAURANTS -->
-            <section id="Restaurants">
-                <h2> Restaurants </h2>
+            <section id="restaurants">
+                <h2 class="section__restaurants-title"> Restaurants </h2>
+                <div class="restaurants">
                     <div class="cards__restaurants">
-                        <a class="puce__restaurants" href="menu1.html"> <img class="img-cards__restaurants" src="images/img1.jpg" alt="" title=""></a>
+                        <div class="div__img-restaurants">
+                            <a class="puce__restaurants" href="menu1.html"> <img class="img-cards__restaurants" src="images/img1.jpg" alt="" title=""></a>
+                        </div>
                         <div class="infos__restaurants">
                             <h3> <a class="puce__restaurants" href="menu1.html"> La palette du goût </a></h3>
                             <p class="p__restaurants"> <a class="puce__restaurants" href="menu1.html"> Ménilmontant </a></p>
@@ -61,7 +66,9 @@
                         </div>
                     </div>
                     <div class="cards__restaurants">
-                        <a class="puce__restaurants" href="menu2.html"> <img class="img-cards__restaurants" src="images/img2.jpg" alt="" title=""></a>
+                        <div class="div__img-restaurants">
+                            <a class="puce__restaurants" href="menu2.html"> <img class="img-cards__restaurants" src="images/img2.jpg" alt="" title=""></a>
+                        </div>
                         <div class="infos__restaurants">
                             <h3> <a class="puce__restaurants" href="menu2.html"> La note enchantée </a></h3>
                             <p class="p__restaurants"> <a class="puce__restaurants" href="menu2.html"> Charonne </a></p>
@@ -69,7 +76,9 @@
                         </div>
                     </div>
                     <div class="cards__restaurants">
-                        <a class="puce__restaurants" href="menu3.html"><img class="img-cards__restaurants" src="images/img3.jpg" alt="" title=""></a>
+                        <div class="div__img-restaurants">
+                            <a class="puce__restaurants" href="menu3.html"><img class="img-cards__restaurants" src="images/img3.jpg" alt="" title=""></a>
+                        </div>
                         <div class="infos__restaurants">
                             <h3> <a class="puce__restaurants" href="menu3.html"> A la française </a></h3>
                             <p class="p__restaurants"> <a class="puce__restaurants" href="menu3.html"> Cité Rouge </a></p>
@@ -77,13 +86,17 @@
                         </div>
                     </div>
                     <div class="cards__restaurants">
-                        <a class="puce__restaurants" href="menu4.html"><img class="img-cards__restaurants" src="images/img4.jpg" alt="" title=""></a>
+                        <div class="div__img-restaurants">
+                            <a class="puce__restaurants" href="menu4.html"><img class="img-cards__restaurants" src="images/img4.jpg" alt="" title=""></a>
+                        </div>
                         <div class="infos__restaurants">
                             <h3> <a class="puce__restaurants" href="menu4.html">Le délice des sens </a></h3>
                             <p class="p__restaurants"> <a class="puce__restaurants" href="menu4.html"> Folie-Méricourt </a></p>
                             <i class="fa-regular fa-heart"></i>
                         </div>
                     </div>
+
+                </div>
             </section>
         </main>
     <!-- FOOTER -->
