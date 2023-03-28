@@ -112,6 +112,7 @@ h1 {
     background: linear-gradient(165deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 78%);
     align-items: center;
     text-align: center;
+    cursor: pointer;
 }
 .btn:hover {
     background: linear-gradient(165deg, rgba(255, 121, 217, 0.836) 0%, rgba(146, 86, 220, 0.801) 78%);
@@ -144,10 +145,25 @@ h2 {
     box-shadow: 1px 3px 6px rgb(182, 182, 182);
     margin-bottom: 15px;
     color: black;
-    font-weight: 400;
+    font-weight: 600;
+    cursor: pointer;
 }
 .btn-fonction:hover {
     background-color: #9256dc2f;
+}
+.btn-fonction:hover .fa-mobile-screen-button  {
+    color: blueviolet ;
+}
+.btn-fonction:hover .fa-list {
+    color: blueviolet ;
+}
+.btn-fonction:hover .fa-store {
+    color: blueviolet ;
+}
+.fa-mobile-screen-button, .fa-list, .fa-store {
+    position: relative;
+    right: 20%;
+    color: rgb(148, 148, 148);
 }
 #restaurants {
     background-color: rgb(243, 243, 243);
@@ -156,28 +172,42 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 45px;
 }
 .cards__restaurants {
-    width: 95%;
-    height: 200px;
+    width: 90%;
+    height: 250px;
     display: flex;
     flex-direction: column;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 20px;
     margin-bottom: 10px;
+    box-shadow: 1px 5px 10px lightgray;
 }
 .div__img-restaurants {
     width: 100%;
     height: 75%;
 }
+.new {
+    width: 40px;
+    padding: 5px 10px 5px 10px;
+    font-size: 10px;
+    font-weight: 700;
+    color: rgb(85, 141, 105);
+    background-color: rgb(143, 206, 156);
+    position: relative;
+    left: 285px;
+    bottom: 180px;
+}
+.not-new {
+    visibility: hidden ;
+}
 .img-cards__restaurants {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 25px 25px 0 0;
+    border-radius: 20px 20px 0 0;
 }
 .infos__restaurants {
     max-height: 50px; 
@@ -197,10 +227,16 @@ h3 {
     margin-bottom: 5px;
 }
 .fa-heart {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
     position: relative;
-    bottom: 40px; left: 90%;
+    bottom: 35px; left: 90%;
+    cursor: pointer;
+    border-radius: 250px;
+}
+.fa-heart:hover {
+    color: blueviolet;
+    background: blueviolet;
 }
 
 
