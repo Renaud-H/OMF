@@ -68,7 +68,8 @@ body {
     height: 28px;
     justify-content: center;
     align-items: center;
-    background-color: rgb(226, 226, 226);
+    background-color: #EAEAEA;
+    box-shadow: 0px 10px 1px rgb(182, 182, 182);
 }
 .p__locate {
     font-size: 12px;
@@ -80,7 +81,7 @@ body {
     right: 15px;
 }
 #accueil {
-    background-color: rgb(243, 243, 243);
+    background-color: #D2D2D2;
     height: 250px;
 }
 h1 { 
@@ -141,7 +142,7 @@ h2 {
     padding: 25px 25px 25px 25px;
     border-radius: 25px 25px 25px 25px;
     border: 0px;
-    background-color: rgb(226, 226, 226);
+    background-color: #F6F6F6;
     box-shadow: 1px 3px 6px rgb(182, 182, 182);
     margin-bottom: 15px;
     color: black;
@@ -180,7 +181,7 @@ h2 {
     width: 16px;
     position: relative;
     font-size: 16px;
-    right: 13%;
+    right: 18%;
     color: rgb(148, 148, 148);
 }
 .fa-list {
@@ -191,18 +192,18 @@ h2 {
 }
 .span__fct1 {
     position: relative;
-    left: 10px;
+    right: 25px;
 }
 .span__fct2 {
     position: relative;
-    right: 7px;
+    right: 41px;
 }
 .span__fct3 {
     position: relative;
-    left: 2px;
+    right: 34px;
 }
 #restaurants {
-    background-color: rgb(243, 243, 243);
+    background-color: #D2D2D2;
 }
 .restaurants {
     display: flex;
@@ -212,13 +213,13 @@ h2 {
     padding-bottom: 45px;
 }
 .cards__restaurants {
-    width: 90%;
+    width: 100%;
     height: 250px;
     display: flex;
     flex-direction: column;
     background-color: white;
     border-radius: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     box-shadow: 1px 5px 10px lightgray;
 }
 .div__img-restaurants {
@@ -230,8 +231,8 @@ h2 {
     padding: 5px 10px 5px 10px;
     font-size: 10px;
     font-weight: 700;
-    color: rgb(85, 141, 105);
-    background-color: rgb(143, 206, 156);
+    color: #008766;
+    background-color: #99e2d0;
     position: relative;
     left: 285px;
     bottom: 180px;
@@ -249,6 +250,7 @@ h2 {
     max-height: 50px; 
 }
 .puce__restaurants {
+    width: 90%;
     text-decoration: none;
     color: black;
 }
@@ -268,9 +270,7 @@ h3 {
     position: relative;
     bottom: 35px; left: 90%;
     cursor: pointer;
-    border-radius: 250px;
-}
-.fa-heart:hover {
+    border-radius: 0px;
 
 }
 
@@ -312,7 +312,7 @@ h3 {
 h4 {
     font-family: "Shrikhand", "sans-serif";
     padding-top: 20px;
-    font-size: 24px;
+    font-size: 28px;
 }
 .heart_title { 
     position: sticky;
@@ -340,24 +340,37 @@ h4 {
     align-items: center;
 }
 h5 {
-    margin-left: 4.5%;
+    margin-left: 12px;
     font-weight: 300;
-    font-size: 10px;
+    font-size: 16px;
     align-self: flex-start;
+}
+.underscore {
+    width: 40px;
+    height: 3px;
+    border: solid 0px #99E2D0;
+    color: #99E2D0;
+    background-color: #99E2D0;
+    align-self: flex-start;
+    position: relative;
+    left: 12px;
+    margin: 10px 0px 12px 0px;
 }
 #plats {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 40px;
 }
 #desserts {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 40px;
 }
 .cards__menu {
     width: 91%;
-    height: 25px;
+    height: 69px;
     display: flex;
     flex-direction: column;
     box-shadow: 1px 1px 10px lightgray;
@@ -368,20 +381,25 @@ h5 {
 }
 .menu__nom {
     font-weight: 700;
-    font-size: 12px;
-    padding-bottom: 4px;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 14px;
+    padding-left: 8px;
 }
 .menu__details {
     display: flex;
     justify-content: space-between;
+
 }
 .menu__sous-nom {
     font-weight: 300;
-    font-size: 10px;
+    font-size: 15px;
+    padding-left: 8px;
 }
 .menu__tarif {
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 700;
+    padding-right: 8px;
 
 }
 /* FOOTER */
@@ -390,7 +408,7 @@ footer {
     height: 130px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(54, 54, 54);
+    background-color: #353535;
     color: white;
     font-size: 12px;
   }
@@ -420,5 +438,4 @@ footer {
   }
   .footer__a {
     height: 15px;
-  }
-
+}
