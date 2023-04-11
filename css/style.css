@@ -80,6 +80,7 @@ body {
     position: relative;
     right: 15px;
 }
+/* ACCEUIL */
 #accueil {
     background-color: #D2D2D2;
     height: 250px;
@@ -118,6 +119,7 @@ h1 {
 .btn:hover {
     background: linear-gradient(165deg, rgba(255, 121, 217, 0.836) 0%, rgba(146, 86, 220, 0.801) 78%);
 }
+/* FONCTIONNEMENT */
 .fonctionnement {
     display: flex;
     flex-wrap: wrap;
@@ -350,7 +352,6 @@ h5 {
     width: 40px;
     height: 3px;
     border: solid 0px #99E2D0;
-    color: #99E2D0;
     background-color: #99E2D0;
     align-self: flex-start;
     position: relative;
@@ -418,18 +419,14 @@ footer {
     margin-top: 20px;
     margin-bottom: 7px;
     align-self: flex-start;
-    -o-object-fit: scale-down;
-       object-fit: scale-down;
   }
   footer i {
     width: 12px;
     height: 12px;
-    font-size: 8px;
-    align-items: top;
+    font-size: 8px; 
     margin-bottom: 2px;
   }
   footer a {
-    width: -moz-fit-content;
     width: fit-content;
     cursor: pointer;
     text-decoration: none;
