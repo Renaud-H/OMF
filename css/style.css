@@ -293,7 +293,7 @@ h3 {
         -webkit-text-fill-color: transparent;
         opacity: 1;
     }
-    .fa-heart:active {
+    .fa-heart:hover {
         background-clip: text;
         -webkit-background-clip: text;
         color:  linear-gradient(165deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 78%);
