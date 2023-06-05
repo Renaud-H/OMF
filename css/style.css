@@ -657,7 +657,51 @@ footer {
         opacity: 1;
         z-index: 100;
     }
-    100% {opacity: 1;
+    100% {
+        opacity: 1;
         z-index: 100;
     }
+  }
+  /* MEDIA DESKTOP */
+  @media (min-width: 1000px ) {
+    body {
+        max-width: none;
+    }
+    .div__fonctionnement {
+        display: flex;
+        justify-content: space-around;
+        height: 150px;
+    }
+    .btn-fonction {
+        width: 80%;
+        max-width: 400px;
+        height: 80px;
+        margin: 10px;
+    }
+    .div__btn-btn {
+        position: relative;
+        right: 25%;
+    }
+    .restaurants {
+        flex-direction: row;
+        margin-left: 10px;
+        position: relative;
+    }
+    .new {
+        position: relative;
+        left: 75%;
+    }
+    .btn-like {
+        position: relative;
+        left: -3%;
+        top: 90px;
+        bottom: 0;
+    }
+    .menu__tarif {
+        width: 20%;   
+        align-items: flex-end;
+    }
+    .lds-roller div {
+        left: 49%;
+      }
   }
