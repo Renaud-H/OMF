@@ -663,7 +663,9 @@ footer {
     }
   }
   /* MEDIA DESKTOP */
-  @media (min-width: 1000px ) {
+
+  /* big landscape tablets, laptops, and desktops */
+  @media (min-width: 1025px ) {
     body {
         max-width: none;
     }
@@ -689,7 +691,7 @@ footer {
     }
     .new {
         position: relative;
-        left: 75%;
+        left: 72%;
     }
     .btn-like {
         position: relative;
